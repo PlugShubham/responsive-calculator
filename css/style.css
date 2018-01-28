@@ -1,0 +1,37 @@
+*{
+    font-family: monospace;
+}
+body{
+    background-image: url(../assets/stardust.png);
+}
+.fancy-box{
+    height: 450px;
+    width: 350px;
+    border: 3px solid beige;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: beige;
+}
+.result-box{
+    margin-left: 23px;
+    height: 60px;
+    width: 300px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 40px;
+    background-color: azure;
+    color:#434349;
+}
+.btn {
+    width: 60px;
+    font-size: 20px;
+    margin-top: 15px;
+    border-bottom-width: thick;
+}
+.btn:focus{
+    width: 60px;
+    font-size: 20px;
+    margin-top: 15px;
+    outline: 0;
+    border-bottom-width: thin;
+}
